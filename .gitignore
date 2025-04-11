@@ -3,3 +3,23 @@ terraform.tfvars
 .terraform
 terraform.tfstate.backup
 terraform.tfstate
+# .gitignore
+
+# Diretórios e arquivos do Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Outros arquivos que não precisam ir para o Git
+*.log
+*.bak
+*.swp
+.idea/
+.vscode/
+.DS_Store
